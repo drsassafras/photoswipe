@@ -1,6 +1,6 @@
 {
-  "name": "components/photoswipe",
-  "description": "JavaScript image gallery for mobile and desktop, modular, framework independent",
+  "name": "legolasbo/photoswipe",
+  "description": "Shim repository for PhotoSwipe: JavaScript image gallery for mobile and desktop, modular, framework independent",
   "type": "component",
   "license": "MIT",
   "homepage": "http://photoswipe.com",
