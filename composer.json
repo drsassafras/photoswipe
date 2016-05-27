@@ -1,21 +1,28 @@
 {
-  "name": "legolasbo/photoswipe",
-  "type": "project",
-  "repositories": [
-    {
-      "type": "package",
-      "package": {
-        "name": "dimsemenov/photoswipe",
-        "type": "drupal-library",
-        "version": "4.1.1",
-        "dist": {
-          "url": "https://github.com/dimsemenov/PhotoSwipe/archive/v4.1.1.zip",
-          "type": "zip"
-        }
+  "name": "components/photoswipe",
+  "description": "JavaScript image gallery for mobile and desktop, modular, framework independent",
+  "type": "component",
+  "license": "MIT",
+  "homepage": "http://photoswipe.com",
+  "extra": {
+    "component": {
+      "scripts": [
+        "photoswipe.js",
+        "photoswipe-ui-default.js"
+      ],
+      "files": [
+        "default-skin/default-skin.css",
+        "default-skin/default-skin.png",
+        "default-skin/default-skin.svg",
+        "default-skin/preloader.gif",
+        "photoswipe.min.js",
+        "photoswipe.css",
+        "photoswipe-ui-default.min.js"
+      ],
+      "shim": {
+        "exports": "photoswipe"
       }
     }
-  ],
-  "require": {
-    "dimsemenov/PhotoSwipe": "^4.1"
-  }
+  },
+  "version": "4.1.1"
 }
